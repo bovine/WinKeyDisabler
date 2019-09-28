@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{37443354-E9C5-4129-BE38-333F0441C37B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StartButtonDisabler</RootNamespace>
+    <RootNamespace>WinKeyDisabler</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -153,18 +153,18 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="StartButtonDisabler.h" />
+    <ClInclude Include="WinKeyDisabler.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StartButtonDisabler.cpp" />
+    <ClCompile Include="WinKeyDisabler.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="StartButtonDisabler.rc" />
+    <ResourceCompile Include="WinKeyDisabler.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico" />
-    <Image Include="StartButtonDisabler.ico" />
+    <Image Include="WinKeyDisabler.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

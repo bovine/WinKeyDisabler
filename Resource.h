@@ -1,17 +1,17 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by StartButtonDisabler.rc
+// Used by WinKeyDisabler.rc
 
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
-#define IDD_STARTBUTTONDISABLER_DIALOG	102
+#define IDD_WINKEYDISABLER_DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
 #define IDM_EXIT				105
-#define IDI_STARTBUTTONDISABLER			107
+#define IDI_WINKEYDISABLER			107
 #define IDI_SMALL				108
-#define IDC_STARTBUTTONDISABLER			109
+#define IDC_WINKEYDISABLER			109
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1

@@ -29,7 +29,7 @@ LANGUAGE 9, 1
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 
-IDI_STARTBUTTONDISABLER       ICON         "StartButtonDisabler.ico"
+IDI_WINKEYDISABLER       ICON         "WinKeyDisabler.ico"
 IDI_SMALL               ICON         "small.ico"
 
 /////////////////////////////////////////////////////////////////////////////
@@ -37,7 +37,7 @@ IDI_SMALL               ICON         "small.ico"
 // Menu
 //
 
-IDC_STARTBUTTONDISABLER MENU
+IDC_WINKEYDISABLER MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -55,7 +55,7 @@ END
 // Accelerator
 //
 
-IDC_STARTBUTTONDISABLER ACCELERATORS
+IDC_WINKEYDISABLER ACCELERATORS
 BEGIN
     "?",            IDM_ABOUT,              ASCII,  ALT
     "/",            IDM_ABOUT,              ASCII,  ALT
@@ -69,11 +69,11 @@ END
 
 IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "About StartButtonDisabler"
+CAPTION "About WinKeyDisabler"
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
-    LTEXT           "StartButtonDisabler, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "WinKeyDisabler, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
     LTEXT           "Copyright (c) 2019",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
 END
@@ -132,8 +132,8 @@ END
 
 STRINGTABLE
 BEGIN
-   IDC_STARTBUTTONDISABLER   "STARTBUTTONDISABLER"
-   IDS_APP_TITLE       "StartButtonDisabler"
+   IDC_WINKEYDISABLER   "WINKEYDISABLER"
+   IDS_APP_TITLE       "WinKeyDisabler"
 END
 
 #endif
